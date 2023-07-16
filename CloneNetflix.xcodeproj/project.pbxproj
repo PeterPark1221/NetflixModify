@@ -18,6 +18,7 @@
 		35BBFA822A5D49DD00F1F69F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBFA812A5D49DD00F1F69F /* Movie.swift */; };
 		35BBFA842A5D4A6600F1F69F /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBFA832A5D4A6600F1F69F /* StandardHomeMovie.swift */; };
 		35BBFA862A5D4AAA00F1F69F /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBFA852A5D4AAA00F1F69F /* GlobalHelpers.swift */; };
+		35D70A8E2A63DD5E003601AE /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		35BBFA812A5D49DD00F1F69F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		35BBFA832A5D4A6600F1F69F /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		35BBFA852A5D4AAA00F1F69F /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				35BBFA832A5D4A6600F1F69F /* StandardHomeMovie.swift */,
 				35BBFA852A5D4AAA00F1F69F /* GlobalHelpers.swift */,
 				3537D1382A5E4CEA0003482D /* HomeVM.swift */,
+				35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				35BBFA7D2A5D468C00F1F69F /* HomeView.swift in Sources */,
 				3537D1392A5E4CEA0003482D /* HomeVM.swift in Sources */,
 				35BBFA702A5D455F00F1F69F /* ContentView.swift in Sources */,
+				35D70A8E2A63DD5E003601AE /* TopMoviePreview.swift in Sources */,
 				35BBFA842A5D4A6600F1F69F /* StandardHomeMovie.swift in Sources */,
 				35BBFA822A5D49DD00F1F69F /* Movie.swift in Sources */,
 				35BBFA6E2A5D455F00F1F69F /* CloneNetflixApp.swift in Sources */,
