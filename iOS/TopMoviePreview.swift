@@ -38,6 +38,7 @@ struct TopMoviePreview: View {
                     ForEach(movie.categories, id: \.self) { category in
                         HStack {
                             Text(category)
+                                .font(.footnote)
                             
                             if !isCategoryLast(category) {
                                 Image(systemName: "circle.fill")
@@ -48,8 +49,29 @@ struct TopMoviePreview: View {
                     }
                 }
                 
-                Text("category")
-            }
+                HStack {
+                    Spacer()
+                    
+                    SmallVerticalButton(text: "My List", isOnImage: "checkmark", isOffImage: "plus", isOn: true)
+                    
+                    Spacer()
+                    
+                    WhiteButton(text: "Play", imageName: "play.fill")
+                    
+                    Spacer()
+                    
+                    SmallVerticalButton(text: "Info", isOnImage: "info.circle", isOffImage: "info.circle", isOn: true)
+                    
+                    Spacer()
+                }
+            }//그라운데이션를 통해 배경화면을 점점 내려갈수록 어둡게 설정
+            .background(
+                LinearGradient(
+                    gradient: Gradient(colors: [Color.black.opacity(0.0),Color.black.opacity(0.95)]),
+                    startPoint: .top,
+                    endPoint: .bottom)
+            )
+            .padding(.top, 200)
         }
         .foregroundColor(.white )
     }

@@ -5,8 +5,10 @@
 //  Created by PeterPark on 2023/07/11.
 //
 
+
 import SwiftUI
 import Kingfisher
+
 
 struct StandardHomeMovie: View {
     var movie: Movie
