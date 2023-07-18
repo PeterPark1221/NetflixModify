@@ -67,7 +67,7 @@ struct TopMoviePreview: View {
             }//그라운데이션를 통해 배경화면을 점점 내려갈수록 어둡게 설정
             .background(
                 LinearGradient(
-                    gradient: Gradient(colors: [Color.black.opacity(0.0),Color.black.opacity(0.95)]),
+                    gradient: Gradient(colors: [Color.black.opacity(0.0), Color.black.opacity(0.95)]),
                     startPoint: .top,
                     endPoint: .bottom)
             )

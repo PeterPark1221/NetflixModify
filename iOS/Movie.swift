@@ -14,4 +14,5 @@ struct Movie: Identifiable {
     var thumbnailURL: URL
     
     var categories: [String]
+    
 }

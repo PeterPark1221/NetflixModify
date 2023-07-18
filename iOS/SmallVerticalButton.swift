@@ -24,6 +24,7 @@ struct SmallVerticalButton: View {
             return isOffImage
         }
     }
+    
     var body: some View {
         Button(action: {
             //
