@@ -15,4 +15,19 @@ struct Movie: Identifiable {
     
     var categories: [String]
     
+    //movieDetail
+    var year: Int
+    var rating: String
+    var numberOfSeasons: Int?
+    
+    var numberOfSeasonsDisplay: String {
+        if let num = numberOfSeasons {
+            if num == 1 {
+                return "1 seasons"
+            } else {
+                return "\(num) seasons"
+            }
+        }
+        return ""
+    }
 }

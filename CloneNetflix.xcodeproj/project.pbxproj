@@ -20,6 +20,8 @@
 		35BBFA822A5D49DD00F1F69F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBFA812A5D49DD00F1F69F /* Movie.swift */; };
 		35BBFA842A5D4A6600F1F69F /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBFA832A5D4A6600F1F69F /* StandardHomeMovie.swift */; };
 		35BBFA862A5D4AAA00F1F69F /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBFA852A5D4AAA00F1F69F /* GlobalHelpers.swift */; };
+		35CF13712A72F49600260C7D /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13702A72F49600260C7D /* MovieDetail.swift */; };
+		35CF13732A72FB0A00260C7D /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13722A72FB0A00260C7D /* Episode.swift */; };
 		35D70A8E2A63DD5E003601AE /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		35BBFA812A5D49DD00F1F69F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		35BBFA832A5D4A6600F1F69F /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		35BBFA852A5D4AAA00F1F69F /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		35CF13702A72F49600260C7D /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		35CF13722A72FB0A00260C7D /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,16 +96,50 @@
 		35BBFA7B2A5D467100F1F69F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				35CF136F2A72F43C00260C7D /* Helpers */,
+				35CF136E2A72F42500260C7D /* Model */,
+				35CF136D2A72F40900260C7D /* HelperViews */,
+				35CF136C2A72F3FC00260C7D /* Home */,
+				35CF13702A72F49600260C7D /* MovieDetail.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		35CF136C2A72F3FC00260C7D /* Home */ = {
+			isa = PBXGroup;
+			children = (
 				35BBFA7C2A5D468C00F1F69F /* HomeView.swift */,
-				35BBFA812A5D49DD00F1F69F /* Movie.swift */,
-				35BBFA832A5D4A6600F1F69F /* StandardHomeMovie.swift */,
-				35BBFA852A5D4AAA00F1F69F /* GlobalHelpers.swift */,
 				3537D1382A5E4CEA0003482D /* HomeVM.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		35CF136D2A72F40900260C7D /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				35BBFA832A5D4A6600F1F69F /* StandardHomeMovie.swift */,
 				35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */,
 				35820BB82A64D18C00E61670 /* SmallVerticalButton.swift */,
 				35820BBA2A64D6F800E61670 /* WhiteButton.swift */,
 			);
-			path = iOS;
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		35CF136E2A72F42500260C7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35BBFA812A5D49DD00F1F69F /* Movie.swift */,
+				35CF13722A72FB0A00260C7D /* Episode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35CF136F2A72F43C00260C7D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				35BBFA852A5D4AAA00F1F69F /* GlobalHelpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35BBFA862A5D4AAA00F1F69F /* GlobalHelpers.swift in Sources */,
+				35CF13732A72FB0A00260C7D /* Episode.swift in Sources */,
 				35BBFA7D2A5D468C00F1F69F /* HomeView.swift in Sources */,
 				3537D1392A5E4CEA0003482D /* HomeVM.swift in Sources */,
 				35BBFA702A5D455F00F1F69F /* ContentView.swift in Sources */,
@@ -191,6 +230,7 @@
 				35BBFA6E2A5D455F00F1F69F /* CloneNetflixApp.swift in Sources */,
 				35820BB92A64D18C00E61670 /* SmallVerticalButton.swift in Sources */,
 				35820BBB2A64D6F800E61670 /* WhiteButton.swift in Sources */,
+				35CF13712A72F49600260C7D /* MovieDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
