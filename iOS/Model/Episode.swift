@@ -5,16 +5,18 @@
 //  Created by PeterPark on 2023/07/28.
 //
 
-import SwiftUI
+import Foundation
 
-struct Episode: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct Episode_Previews: PreviewProvider {
-    static var previews: some View {
-        Episode()
+struct Episode: Identifiable {
+    var id = UUID().uuidString
+    
+    var name: String
+    var season: Int
+    var thumbnailImageURLString: String
+    var description: String
+    var length: Int
+    
+    var thumbnailURL: URL {
+        return URL(string: thumbnailImageURLString)! 
     }
 }

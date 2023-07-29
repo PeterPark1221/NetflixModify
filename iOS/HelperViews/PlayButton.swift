@@ -7,10 +7,11 @@
 
 import SwiftUI
 
-struct WhiteButton: View {
+struct PlayButton: View {
     //프로퍼티 생성
     var text: String
     var imageName: String
+    var backgroundColor: Color = Color.white
     
     var body: some View {
         
@@ -30,9 +31,8 @@ struct WhiteButton: View {
                 Spacer()
             }
             .padding(.vertical, 6)
-            .foregroundColor(.black)
-            .background(Color.white)
-            .frame(width: 120)
+            .foregroundColor(backgroundColor == .white ? .black : .white)
+            .background(backgroundColor)
             .cornerRadius(3.0 )
         })
     }
@@ -45,7 +45,7 @@ struct WhiteButton_Previews: PreviewProvider {
             Color.black
                 .ignoresSafeArea()
             
-            WhiteButton(text: "Play", imageName: "play.fill")
+            PlayButton(text: "Play", imageName: "play.fill")
         }
     }
 }

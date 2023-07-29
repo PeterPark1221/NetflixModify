@@ -20,6 +20,18 @@ struct Movie: Identifiable {
     var rating: String
     var numberOfSeasons: Int?
     
+    var currentEpisode: CurrentEpisodeInfo?
+    
+    
+    var defaultEpisodeInfo: CurrentEpisodeInfo
+    var creator: String
+    var cast: String
+    
+    var episodes: [Episode]?
+    
+    var promotionHeadline: String?
+    //if let는 옵셔널을 안전하게 추출하게 해줌 -> unwrapping
+    //값이 있을 경우 상수let에 할당된 값을 출력하면서 옵셔널이 벗겨짐
     var numberOfSeasonsDisplay: String {
         if let num = numberOfSeasons {
             if num == 1 {
@@ -30,4 +42,28 @@ struct Movie: Identifiable {
         }
         return ""
     }
+    
+    var episodeInfoDisplay : String {
+        if let current = currentEpisode {
+            return "S\(current.season):E\(current.episode) \(current.episodename)"
+        } else {
+            return "S\(defaultEpisodeInfo.season):E\(defaultEpisodeInfo.episode) \(defaultEpisodeInfo.episodename)"
+        }
+    }
+    
+    var episodeDescriptionDisplay: String {
+        if let current = currentEpisode {
+            return current.description
+        } else {
+            return defaultEpisodeInfo.description
+        }
+    }
+}
+
+
+struct CurrentEpisodeInfo: Hashable, Equatable {
+    var episodename: String
+    var description: String
+    var season: Int
+    var episode: Int
 }
