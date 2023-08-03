@@ -31,13 +31,17 @@ struct MovieDetail: View {
                 }
                 .padding(.horizontal, 22)
                 
+                //가로로 된 스크롤 뷰, 스크롤 바를 false하는 것
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack {
+                        //episode 이미지
                         StandardHomeMovie(movie: movie)
                             .frame(width: screen.width / 2.5)
                         
+                        //좋아요 버튼, 상영년도, rated, 시즌 횟수
                         MovieInfoSubheadline(movie: movie)
                         
+                        //promotion를 뷰에 나오게 하는 것, 옵셔널 값이기에 없으면 출력 안함
                         if movie.promotionHeadline != nil {
                             Text(movie.promotionHeadline!)
                                 .bold()
@@ -51,6 +55,8 @@ struct MovieDetail: View {
                         
                         CastInfo(movie: movie)
                         
+                        
+                        //리스트추가버튼, 좋아요버튼, 공유버튼
                         HStack(spacing: 60) {
                             SmallVerticalButton(text: "My List", isOnImage: "checkmark", isOffImage: "plus", isOn: true)
                             
