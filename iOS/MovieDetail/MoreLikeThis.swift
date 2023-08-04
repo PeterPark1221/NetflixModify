@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MoreLikeThis: View {
+    //프리뷰에 하나만 나타내고싶으면 그냥 Movie, 여러개의 구현된 거를 띄우고 싶으면 [Movie]
     var movies: [Movie]
     
     let column = [
@@ -18,6 +19,7 @@ struct MoreLikeThis: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: column) {
+                //exapmlermovie1~7여서 0~6 총 6개
                 ForEach(0..<movies.count) { index in
                     StandardHomeMovie(movie: movies[index])
                 }

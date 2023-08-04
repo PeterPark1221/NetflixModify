@@ -57,12 +57,14 @@ struct MovieDetail: View {
                         
                         
                         //리스트추가버튼, 좋아요버튼, 공유버튼
-                        HStack(spacing: 60) {
+                        HStack(spacing: 30) {
                             SmallVerticalButton(text: "My List", isOnImage: "checkmark", isOffImage: "plus", isOn: true)
                             
-                            SmallVerticalButton(text: "Rate", isOnImage: "hand.thumbsup.fill", isOffImage: "hand.thumbsup", isOn: true )
+                            SmallVerticalButton(text: "Rate", isOnImage: "hand.thumbsup.fill", isOffImage: "hand.thumbsup", isOn: false )
                             
                             SmallVerticalButton(text: "Share", isOnImage: "paperplane", isOffImage: "paperplane", isOn: true)
+                            
+                            SmallVerticalButton(text: "Comment", isOnImage: "bubble.right", isOffImage: "bubble.right", isOn: true)
                             
                             Spacer()
                         }
