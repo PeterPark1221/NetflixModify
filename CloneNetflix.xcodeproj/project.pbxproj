@@ -28,6 +28,7 @@
 		35CF137E2A798B5500260C7D /* SwiftUIVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF137D2A798B5500260C7D /* SwiftUIVideoView.swift */; };
 		35CF13812A798D0D00260C7D /* VideoPreviewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13802A798D0D00260C7D /* VideoPreviewImage.swift */; };
 		35CF13832A798F4600260C7D /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13822A798F4600260C7D /* TrailerList.swift */; };
+		35CF13872A7DE67400260C7D /* EpisdoeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13862A7DE67400260C7D /* EpisdoeView.swift */; };
 		35D70A8E2A63DD5E003601AE /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		35CF137D2A798B5500260C7D /* SwiftUIVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVideoView.swift; sourceTree = "<group>"; };
 		35CF13802A798D0D00260C7D /* VideoPreviewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewImage.swift; sourceTree = "<group>"; };
 		35CF13822A798F4600260C7D /* TrailerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerList.swift; sourceTree = "<group>"; };
+		35CF13862A7DE67400260C7D /* EpisdoeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisdoeView.swift; sourceTree = "<group>"; };
 		35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +165,7 @@
 				35CF13702A72F49600260C7D /* MovieDetail.swift */,
 				35CF13792A794AB200260C7D /* MoreLikeThis.swift */,
 				35CF13822A798F4600260C7D /* TrailerList.swift */,
+				35CF13862A7DE67400260C7D /* EpisdoeView.swift */,
 			);
 			path = MovieDetail;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				35BBFA7D2A5D468C00F1F69F /* HomeView.swift in Sources */,
 				3537D1392A5E4CEA0003482D /* HomeVM.swift in Sources */,
 				35CF13812A798D0D00260C7D /* VideoPreviewImage.swift in Sources */,
+				35CF13872A7DE67400260C7D /* EpisdoeView.swift in Sources */,
 				35BBFA702A5D455F00F1F69F /* ContentView.swift in Sources */,
 				35D70A8E2A63DD5E003601AE /* TopMoviePreview.swift in Sources */,
 				35BBFA842A5D4A6600F1F69F /* StandardHomeMovie.swift in Sources */,
