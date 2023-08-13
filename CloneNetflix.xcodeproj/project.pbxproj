@@ -29,6 +29,7 @@
 		35CF13812A798D0D00260C7D /* VideoPreviewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13802A798D0D00260C7D /* VideoPreviewImage.swift */; };
 		35CF13832A798F4600260C7D /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13822A798F4600260C7D /* TrailerList.swift */; };
 		35CF13872A7DE67400260C7D /* EpisdoeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13862A7DE67400260C7D /* EpisdoeView.swift */; };
+		35CF13892A8379FA00260C7D /* HomeStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13882A8379FA00260C7D /* HomeStack.swift */; };
 		35D70A8E2A63DD5E003601AE /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		35CF13802A798D0D00260C7D /* VideoPreviewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewImage.swift; sourceTree = "<group>"; };
 		35CF13822A798F4600260C7D /* TrailerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerList.swift; sourceTree = "<group>"; };
 		35CF13862A7DE67400260C7D /* EpisdoeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisdoeView.swift; sourceTree = "<group>"; };
+		35CF13882A8379FA00260C7D /* HomeStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStack.swift; sourceTree = "<group>"; };
 		35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 			children = (
 				35BBFA7C2A5D468C00F1F69F /* HomeView.swift */,
 				3537D1382A5E4CEA0003482D /* HomeVM.swift */,
+				35CF13882A8379FA00260C7D /* HomeStack.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				35BBFA822A5D49DD00F1F69F /* Movie.swift in Sources */,
 				35BBFA6E2A5D455F00F1F69F /* CloneNetflixApp.swift in Sources */,
 				35CF137A2A794AB200260C7D /* MoreLikeThis.swift in Sources */,
+				35CF13892A8379FA00260C7D /* HomeStack.swift in Sources */,
 				35CF13772A7508FB00260C7D /* CustomTabSwitcher.swift in Sources */,
 				35CF13832A798F4600260C7D /* TrailerList.swift in Sources */,
 				35820BB92A64D18C00E61670 /* SmallVerticalButton.swift in Sources */,

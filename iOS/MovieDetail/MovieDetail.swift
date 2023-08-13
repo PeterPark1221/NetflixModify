@@ -15,7 +15,8 @@ struct MovieDetail: View {
     @State private var showSeasonPicker = false
     @State private var selectedSeason = 1
     
-     
+    @Binding var moveDetailToShow: Movie?
+    
     var body: some View {
         ZStack {
             Color.black
@@ -26,7 +27,7 @@ struct MovieDetail: View {
                     Spacer()
                     
                     Button(action: {
-                        //
+                        moveDetailToShow = nil
                     }, label: {
                         Image(systemName: "xmark.circle")
                             .font(.system(size: 28))
@@ -68,7 +69,7 @@ struct MovieDetail: View {
                             
                             SmallVerticalButton(text: "Share", isOnImage: "paperplane", isOffImage: "paperplane", isOn: true)
                             
-                            SmallVerticalButton(text: "Comment", isOnImage: "bubble.right", isOffImage: "bubble.right", isOn: true)
+                            //SmallVerticalButton(text: "Comment", isOnImage: "bubble.right", isOffImage: "bubble.right", isOn: true)
                             
                             Spacer()
                         }
@@ -125,7 +126,7 @@ struct MovieDetail: View {
 
 struct MovieDetail_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetail(movie: examplerMovie1)
+        MovieDetail(movie: examplerMovie1, moveDetailToShow: .constant(nil))
     }
 }
 

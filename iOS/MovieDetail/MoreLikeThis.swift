@@ -17,14 +17,12 @@ struct MoreLikeThis: View {
         GridItem(.flexible())
     ]
     var body: some View {
-        ScrollView {
             LazyVGrid(columns: column) {
                 //exapmlermovie1~7여서 0~6 총 6개
                 ForEach(0..<movies.count) { index in
                     StandardHomeMovie(movie: movies[index])
                 }
             }
-        }
     }
 }
 

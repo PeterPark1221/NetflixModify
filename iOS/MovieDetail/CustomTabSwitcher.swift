@@ -21,13 +21,13 @@ struct CustomTabSwitcher: View {
     var body: some View {
         VStack {
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 30) {
+                HStack(spacing: 20) {
                     ForEach(tabs, id: \.self ) { tab in
                         VStack {
                             
                             //red Bar
                             Rectangle()
-                                .frame( height: 6)
+                                .frame( height:6)
                                 .foregroundColor(tab == currentTab ? Color.red : Color.clear) // tab이랑 currenttab이 같으면 빨간색이고, 다르면 색이없다
                             
                             

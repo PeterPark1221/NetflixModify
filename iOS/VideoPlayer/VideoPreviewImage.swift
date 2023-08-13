@@ -12,6 +12,7 @@ struct VideoPreviewImage: View {
     var imageURL: URL
     var videoURL: URL
     
+    //
     @State private var ShowingVideoPlayer: Bool = false
     
     var body: some View {
