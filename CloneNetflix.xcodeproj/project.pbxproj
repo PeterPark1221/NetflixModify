@@ -30,6 +30,7 @@
 		35CF13832A798F4600260C7D /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13822A798F4600260C7D /* TrailerList.swift */; };
 		35CF13872A7DE67400260C7D /* EpisdoeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13862A7DE67400260C7D /* EpisdoeView.swift */; };
 		35CF13892A8379FA00260C7D /* HomeStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13882A8379FA00260C7D /* HomeStack.swift */; };
+		35CF13992A8F81B400260C7D /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CF13982A8F81B400260C7D /* SearchBar.swift */; };
 		35D70A8E2A63DD5E003601AE /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		35CF13862A7DE67400260C7D /* EpisdoeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisdoeView.swift; sourceTree = "<group>"; };
 		35CF13882A8379FA00260C7D /* HomeStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStack.swift; sourceTree = "<group>"; };
 		35CF13972A8A5D7E00260C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		35CF13982A8F81B400260C7D /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 		35BBFA7B2A5D467100F1F69F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				35CF139B2A8F81E300260C7D /* Search */,
 				35CF136F2A72F43C00260C7D /* Helpers */,
 				35CF136E2A72F42500260C7D /* Model */,
 				35CF137F2A798C9300260C7D /* VideoPlayer */,
@@ -182,6 +185,14 @@
 				35CF13802A798D0D00260C7D /* VideoPreviewImage.swift */,
 			);
 			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		35CF139B2A8F81E300260C7D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				35CF13982A8F81B400260C7D /* SearchBar.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,7 @@
 				35BBFA6E2A5D455F00F1F69F /* CloneNetflixApp.swift in Sources */,
 				35CF137A2A794AB200260C7D /* MoreLikeThis.swift in Sources */,
 				35CF13892A8379FA00260C7D /* HomeStack.swift in Sources */,
+				35CF13992A8F81B400260C7D /* SearchBar.swift in Sources */,
 				35CF13772A7508FB00260C7D /* CustomTabSwitcher.swift in Sources */,
 				35CF13832A798F4600260C7D /* TrailerList.swift in Sources */,
 				35820BB92A64D18C00E61670 /* SmallVerticalButton.swift in Sources */,
