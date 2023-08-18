@@ -78,9 +78,8 @@ let episode6 = Episode(
     description: "All samples shall be properly labeled in order to ensure that the results can be traced back to the location from which it was collected.",
     length: 56,
     videoURL: exampleVideoURL)
-
-
 var allExampleEpisode = [episode1, episode2, episode3, episode4, episode5, episode6]
+
 
 let examplerMovie1 = Movie(
     id: UUID().uuidString,
@@ -177,11 +176,10 @@ let examplerMovie7 = Movie(
     moreLikeThisMovies: [],
     promotionHeadline: "Watch Season 3 Now ",
     trailers: exampleTrailer)
-
-
-
 var exampleMovies: [Movie] {
     return [examplerMovie1, examplerMovie2, examplerMovie3, examplerMovie4, examplerMovie5, examplerMovie6].shuffled()
 }
+
+
 
 let exampleEpisodeInfo1 = CurrentEpisodeInfo(episodename: "Beginnings and Endings", description: "Six months after the disappearances, the police form a task force. In 2052, Jonas learns that most of Winden perished in an apocalyptic event.", season: 2, episode: 1)

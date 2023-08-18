@@ -57,6 +57,7 @@
 		35CF13822A798F4600260C7D /* TrailerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerList.swift; sourceTree = "<group>"; };
 		35CF13862A7DE67400260C7D /* EpisdoeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisdoeView.swift; sourceTree = "<group>"; };
 		35CF13882A8379FA00260C7D /* HomeStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStack.swift; sourceTree = "<group>"; };
+		35CF13972A8A5D7E00260C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		35D70A8D2A63DD5E003601AE /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +94,7 @@
 		35BBFA6C2A5D455F00F1F69F /* CloneNetflix */ = {
 			isa = PBXGroup;
 			children = (
+				35CF13972A8A5D7E00260C7D /* Info.plist */,
 				35BBFA6D2A5D455F00F1F69F /* CloneNetflixApp.swift */,
 				35BBFA6F2A5D455F00F1F69F /* ContentView.swift */,
 				35BBFA712A5D456000F1F69F /* Assets.xcassets */,
@@ -409,6 +411,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CloneNetflix/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloneNetflix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,6 +440,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CloneNetflix/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloneNetflix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

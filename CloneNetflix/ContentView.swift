@@ -10,8 +10,11 @@ import SwiftUI
 struct ContentView: View {
     
     init() {
+        //탭바를 반투명하게 설정하는 것
         UITabBar.appearance().isTranslucent = true
-        UITabBar.appearance().barTintColor = UIColor.black 
+        
+        //탭바 색상변경
+        UITabBar.appearance().barTintColor = UIColor.black
     }
     
     var body: some View {

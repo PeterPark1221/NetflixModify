@@ -34,7 +34,7 @@ struct HomeView: View {
                     //가장자리에 있는 영화
                     TopMoviePreview(movie: examplerMovie1)
                         .frame(width: screen.width)
-                        .padding(.top, -115)
+                        .padding(.top, -150)
                         .zIndex(-1) //위에 padding때문에 logo가 안 보여줌 그래서 zindex를 통해 뷰를 뒤에다 배치
                     
                     //카테고리별 영화뷰
